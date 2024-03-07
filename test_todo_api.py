@@ -109,3 +109,4 @@ def test_delete_all_tasks():
         delete_task(item["task_id"])
 
     print(get_list_task("User_01").json())
+    print("Test has been done!")
